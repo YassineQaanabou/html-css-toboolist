@@ -1,78 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#add_task{
-    display: inline-block;
-    border: 1px solid grey;
-    border-radius: 5px 5px 5px 5px ;
-    background-color: #14AAF5;
-    padding: 5px;
+#add_task {
+  display: inline-block;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #14aaf5;
+  padding: 8px;
 }
-#add_section{
-    display: inline-block;
-    border: 1px solid grey;
-    border-radius: 5px 5px 5px 5px ;
-    padding: 5px;
+#add_section {
+  display: inline-block;
+  border: 1px solid #d6dbde;
+  border-radius: 5px 5px 5px 5px;
+  padding: 8px;
 }
-#buttons{
-    font-size: small;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#buttons {
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#title{
-    font-size: larger;
-    font-weight: 700;
-    color: #434c59;
+#title {
+  font-size: larger;
+  font-weight: 700;
+  color: #434c59;
 }
-#check_circle{
-    color: #68d6c2;
+#check_circle {
+  color: #68d6c2;
 }
-#crossed_circle{
-    color: red;
-}
-div{
-    width: 70%;
-    margin: 0 auto;
-    background-color: white;
-    margin-top: 40px;
-}
-body{
-    background-color: whitesmoke;
-}
-header{
-    background-color: white;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-hr{
-    color: whitesmoke;
+#crossed_circle {
+  color: red;
 }
 
-.categories{
-    color: white;
-    font-size:xx-small;
-    border-radius: 20px;
-    padding: 4px;
+#section_top {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 3px;
+  padding-left: 40px;
 }
-.editorial{
-    background-color: #09a9ed;
+#section_bottom {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-.goals{
-    background-color: #ab5de6;
+body {
+  background-color: whitesmoke;
 }
-.recruiting{
-    background-color: #2cc6ab;
+header {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
-.mobile{
-    background-color: #ff9b00;
+hr {
+  color: whitesmoke;
 }
-.website{
-    background-color: #ec4a9d;
+.categories {
+  color: white;
+  font-size: xx-small;
+  border-radius: 20px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
-.sales{
-    background-color:#a3d116 ;
+.editorial {
+  background-color: #09a9ed;
+}
+.goals {
+  background-color: #ab5de6;
+}
+.recruiting {
+  background-color: #2cc6ab;
+}
+.mobile {
+  background-color: #ff9b00;
+}
+.website {
+  background-color: #ec4a9d;
+}
+.sales {
+  background-color: #a3d116;
+}
+.todolist {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
