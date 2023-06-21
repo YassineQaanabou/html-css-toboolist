@@ -16,20 +16,20 @@
   border-radius: 5px 5px 5px 5px;
   padding: 8px;
 }
-#buttons {
+.buttons {
   font-size: small;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-#title {
+.title {
   font-size: larger;
   font-weight: 700;
   color: #434c59;
 }
-#check_circle {
+.check_circle {
   color: #68d6c2;
 }
-#crossed_circle {
+.crossed_circle {
   color: red;
 }
 
